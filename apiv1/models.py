@@ -61,7 +61,7 @@ class Category(models.Model):
                             verbose_name=_('URL адрес категории'))
 
     class Meta:
-        verbose_name = _('Категория')
+        verbose_name = _('категория')
         verbose_name_plural = _('Категории')
 
     def __str__(self):
